@@ -6,6 +6,7 @@ using BulkyBook.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using BulkyBookWeb.Areas.DTOs;
 
 namespace BulkyBookWeb.Controllers
 {
@@ -65,60 +66,60 @@ namespace BulkyBookWeb.Controllers
         }
 
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Upsert(ProductVM obj, IFormFile file)
-        {
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+            public IActionResult Upsert(ProductVM obj, IFormFile file)
+            {
            
           
-            if (ModelState.IsValid)
-            {
-
-                string wwwRootPath = _hostEnvironment.WebRootPath;
-                if (file != null)
+                if (ModelState.IsValid)
                 {
-                    string fileName = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(wwwRootPath, @"images\products");
-                    var extension = Path.GetExtension(file.FileName);
 
-                    // check if the imageurl exist and remove it
-                    if(obj.Product.ImageUrl !=null)
+                    string wwwRootPath = _hostEnvironment.WebRootPath;
+                    if (file != null)
                     {
-                        var oldImagePath = Path.Combine(wwwRootPath, obj.Product.ImageUrl.Trim('\\'));
-                        if(System.IO.File.Exists(oldImagePath))
+                        string fileName = Guid.NewGuid().ToString();
+                        var uploads = Path.Combine(wwwRootPath, @"images\products");
+                        var extension = Path.GetExtension(file.FileName);
+
+                        // check if the imageurl exist and remove it
+                        if(obj.Product.ImageUrl !=null)
                         {
-                            System.IO.File.Delete(oldImagePath);
+                            var oldImagePath = Path.Combine(wwwRootPath, obj.Product.ImageUrl.Trim('\\'));
+                            if(System.IO.File.Exists(oldImagePath))
+                            {
+                                System.IO.File.Delete(oldImagePath);
+                            }
                         }
+
+                        using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                        {
+                            file.CopyTo(fileStreams);
+                        }
+
+                        obj.Product.ImageUrl = @"\images\products\" + fileName + extension;
                     }
 
-                    using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+
+                    // when Id is 0 it means new product is added, if itsn ot then user want to upddate the product
+                    if (obj.Product.Id == 0)
                     {
-                        file.CopyTo(fileStreams);
+                        _unitOfWork.Product.Add(obj.Product);
                     }
-
-                    obj.Product.ImageUrl = @"\images\products\" + fileName + extension;
-                }
-
-
-                // when Id is 0 it means new product is added, if itsn ot then user want to upddate the product
-                if (obj.Product.Id == 0)
-                {
+                    else
+                    {
+                        _unitOfWork.Product.Update(obj.Product);
+                    }
                     _unitOfWork.Product.Add(obj.Product);
-                }
-                else
-                {
-                    _unitOfWork.Product.Update(obj.Product);
-                }
-                _unitOfWork.Product.Add(obj.Product);
-                _unitOfWork.Save();
-                TempData["success"] = "Product updated successfully";
+                    _unitOfWork.Save();
+                    TempData["success"] = "Product updated successfully";
                
-                return RedirectToAction("Index");
+                    return RedirectToAction("Index");
+                }
+
+                return View(obj);
+
             }
-
-            return View(obj);
-
-        }
 
 
 
@@ -131,7 +132,9 @@ namespace BulkyBookWeb.Controllers
         public IActionResult GetAll()
         {
             var productList = _unitOfWork.Product.GetAll(includeProperties:"Category");
-            return Json(new { data = productList });
+            var productDTOList = productList.Select(p => ProductDTOs.MapProductToDTO(p)).ToList();
+
+            return Json(new { data = productDTOList });
         }
 
         //Post
