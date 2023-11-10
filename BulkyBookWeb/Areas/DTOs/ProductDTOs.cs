@@ -1,6 +1,6 @@
-﻿using BulkyBook.Models;
+﻿using F2Play.Models;
 
-namespace BulkyBookWeb.Areas.DTOs
+namespace F2Play.WebApp.Areas.DTOs
 {
     public class ProductDTOs
     {

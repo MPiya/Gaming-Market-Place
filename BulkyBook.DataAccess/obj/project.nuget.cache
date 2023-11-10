@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zziQFqT0YYXoFG6zs0WkxCNHvilEo3gX33qRSPSr1FBQiOnMVGWeTxOU67XBPCaQHbGzGxFxaUaw+dtboxEYdQ==",
+  "dgSpecHash": "I747I2GBBSh2Np8iT8yaOzIPFiSL0qBMg/RAxx2R1ZD+2/iraOv3+IsSgb4t6t8MVtxchsM+Q0O1gcBjDNdcyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

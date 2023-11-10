@@ -3158,7 +3158,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "BulkyBook.Models/1.0.0": {
+      "F2Play.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3170,13 +3170,13 @@
           "MimeKit": "4.1.0"
         },
         "compile": {
-          "bin/placeholder/BulkyBook.Models.dll": {}
+          "bin/placeholder/F2Play.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BulkyBook.Models.dll": {}
+          "bin/placeholder/F2Play.Models.dll": {}
         }
       },
-      "BulkyBook.Utility/1.0.0": {
+      "F2Play.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3187,10 +3187,10 @@
           "SendGrid": "9.28.1"
         },
         "compile": {
-          "bin/placeholder/BulkyBook.Utility.dll": {}
+          "bin/placeholder/F2Play.Utility.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BulkyBook.Utility.dll": {}
+          "bin/placeholder/F2Play.Utility.dll": {}
         }
       }
     }
@@ -9189,21 +9189,21 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "BulkyBook.Models/1.0.0": {
+    "F2Play.Models/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
-      "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
+      "path": "../BulkyBook.Models/F2Play.Models.csproj",
+      "msbuildProject": "../BulkyBook.Models/F2Play.Models.csproj"
     },
-    "BulkyBook.Utility/1.0.0": {
+    "F2Play.Utility/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.Utility/BulkyBook.Utility.csproj",
-      "msbuildProject": "../BulkyBook.Utility/BulkyBook.Utility.csproj"
+      "path": "../BulkyBook.Utility/F2Play.Utility.csproj",
+      "msbuildProject": "../BulkyBook.Utility/F2Play.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BulkyBook.Models >= 1.0.0",
-      "BulkyBook.Utility >= 1.0.0",
+      "F2Play.Models >= 1.0.0",
+      "F2Play.Utility >= 1.0.0",
       "MailKit >= 4.1.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
@@ -9220,9 +9220,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
-      "projectName": "BulkyBook.DataAccess",
-      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
+      "projectName": "F2Play.DataAccess",
+      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
@@ -9246,11 +9246,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj": {
+              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj"
             },
-            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj": {
+              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj"
             }
           }
         }

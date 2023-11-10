@@ -1460,9 +1460,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
-      "projectName": "BulkyBook.Utility",
-      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
+      "projectName": "F2Play.Utility",
+      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\obj\\",
       "projectStyle": "PackageReference",

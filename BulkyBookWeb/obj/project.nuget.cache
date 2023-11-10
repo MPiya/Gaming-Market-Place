@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//T75xvM+Bq6mllPk79tKhgCSMAv27qaunSqVU+jNnNd8Zr5VvYE39g0QkfCoLUoxcfOMKahneoec62eVnwhwg==",
+  "dgSpecHash": "mR+BbsT46m/CtLyRiL9jFI2PBlZs5TaWFsyKi3JLX6oiWQbK7SCOanbyn7nbs8ylbKUp+IdKbAL0Uweqn9ue8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\BulkyBookWeb.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\bin\Debug\net7.0\F2Play.Models.deps.json
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\bin\Debug\net7.0\F2Play.Models.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\bin\Debug\net7.0\F2Play.Models.pdb
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.csproj.AssemblyReference.cache
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.AssemblyInfoInputs.cache
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.AssemblyInfo.cs
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.csproj.CoreCompileInputs.cache
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\refint\F2Play.Models.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\F2Play.Models.pdb
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\BulkyBook.Models\obj\Debug\net7.0\ref\F2Play.Models.dll
