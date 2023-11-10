@@ -5,8 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.Models {
-    public class Company {
+namespace F2Play.Models
+{
+    public class Company
+    {
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }

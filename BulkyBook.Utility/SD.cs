@@ -1,4 +1,4 @@
-﻿namespace BulkyBook.Utility
+﻿namespace F2Play.Utility
 {
     public static class SD
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.DbInitializer
+namespace F2Play.DataAccess.DbInitializer
 {
     public interface IDbInitializer
     {

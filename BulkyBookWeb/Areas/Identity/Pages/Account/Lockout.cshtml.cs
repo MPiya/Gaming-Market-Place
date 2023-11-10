@@ -2,10 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
+using
+F2Play.WebApp;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BulkyBookWeb.Areas.Identity.Pages.Account
+namespace F2Play.WebApp.Areas.Identity.Pages.Account
 {
     /// <summary>
     ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used

@@ -1,11 +1,13 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
+﻿
+using F2Play.DataAccess.Data;
+using F2Play.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace F2Play.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -24,11 +26,11 @@ namespace BulkyBook.DataAccess.Repository
         public IOrderDetailRepository OrderDetail { get; private set; }
 
 
-        public UnitOfWork(ApplicationDbContext db) 
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
-          
+
             Product = new ProductRepository(_db);
             Company = new CompanyRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
@@ -41,7 +43,7 @@ namespace BulkyBook.DataAccess.Repository
         //public IShoppingCartRepository ShoppingCart {  get; private set; }
 
         //public IApplicationUserRepository ApplicationUser {  get; private set; }
-      
+
         public void Save()
         {
             _db.SaveChanges();

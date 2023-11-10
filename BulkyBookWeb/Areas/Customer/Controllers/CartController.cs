@@ -1,14 +1,14 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
-using BulkyBook.Models.ViewModels;
-using BulkyBook.Utility;
+﻿using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
+using F2Play.Models.ViewModels;
+using F2Play.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR.Protocol;
 using Stripe.Checkout;
 using System.Security.Claims;
 
-namespace BulkyBookWeb.Controllers
+namespace F2Play.WebApp.Areas.Customer.Controllers
 {
 
 
@@ -38,10 +38,10 @@ namespace BulkyBookWeb.Controllers
                 OrderHeader = new()
             };
 
-            foreach(var cart in ShoppingCartVM.ListCart)
+            foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBasedOnQuanTity(cart.Count, cart.Product.Price);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
             }
             return View(ShoppingCartVM);
         }
@@ -63,17 +63,17 @@ namespace BulkyBookWeb.Controllers
 
 
             ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == claim.Value);
-			ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name;
-			ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber;
-			ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.ApplicationUser.StreetAddress;
-			ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.ApplicationUser.City;
-			ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.ApplicationUser.State;
-			ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.ApplicationUser.PostalCode;
+            ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name;
+            ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber;
+            ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.ApplicationUser.StreetAddress;
+            ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.ApplicationUser.City;
+            ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.ApplicationUser.State;
+            ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.ApplicationUser.PostalCode;
 
-			foreach (var cart in ShoppingCartVM.ListCart)
+            foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBasedOnQuanTity(cart.Count, cart.Product.Price);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
             }
             return View(ShoppingCartVM);
         }
@@ -91,19 +91,19 @@ namespace BulkyBookWeb.Controllers
 
             ShoppingCartVM.ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product");
 
-            ShoppingCartVM.OrderHeader.OrderDate = System.DateTime.Now;
+            ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
             ShoppingCartVM.OrderHeader.ApplicationUserId = claim.Value;
 
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBasedOnQuanTity(cart.Count, cart.Product.Price);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
             }
 
             ApplicationUser applicationUser = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == claim.Value);
 
-            if(applicationUser.CompanyId.GetValueOrDefault() ==0)
+            if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
                 ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
                 ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
@@ -193,10 +193,10 @@ namespace BulkyBookWeb.Controllers
 
         public IActionResult OrderConfirmation(int id)
         {
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u =>u.Id == id);
-           
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == id);
+
             // if its not PaymentStatusDelayed so it means its the normal user.
-            if(orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+            if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
             {
                 var service = new SessionService();
                 Session session = service.Get(orderHeader.SessionId);
@@ -208,32 +208,32 @@ namespace BulkyBookWeb.Controllers
                     _unitOfWork.Save();
                 }
             }
-        
-            
+
+
 
             // remove shoppping cart after the order is placed.
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
-           _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
+            _unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
             _unitOfWork.Save();
             return View(id);
-           
+
         }
 
-        private double GetPriceBasedOnQuanTity(double quantity,double price)
+        private double GetPriceBasedOnQuanTity(double quantity, double price)
         {
-            if(quantity <=50)
+            if (quantity <= 50)
             {
                 return price;
             }
 
             else
             {
-               
+
                 return price;
 
             }
 
-            
+
         }
 
         public IActionResult Plus(int cartId)
@@ -244,29 +244,29 @@ namespace BulkyBookWeb.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-		public IActionResult Remove(int cartId)
-		{
-			var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
-			_unitOfWork.ShoppingCart.Remove(cart);
-			_unitOfWork.Save();
-			return RedirectToAction(nameof(Index));
-		}
+        public IActionResult Remove(int cartId)
+        {
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
+            _unitOfWork.ShoppingCart.Remove(cart);
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
+        }
 
-		public IActionResult Minus(int cartId)
-		{
-			var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
-			if(cart.Count <=1)
+        public IActionResult Minus(int cartId)
+        {
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
+            if (cart.Count <= 1)
             {
-				_unitOfWork.ShoppingCart.Remove(cart);
-			}
+                _unitOfWork.ShoppingCart.Remove(cart);
+            }
             else
             {
-				_unitOfWork.ShoppingCart.DecrementCount(cart, 1);
-			}
-            
-           
-			_unitOfWork.Save();
-			return RedirectToAction(nameof(Index));
-		}
-	}
+                _unitOfWork.ShoppingCart.DecrementCount(cart, 1);
+            }
+
+
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
+        }
+    }
 }

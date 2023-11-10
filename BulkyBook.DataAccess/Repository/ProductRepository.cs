@@ -1,12 +1,13 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
+﻿using F2Play.DataAccess.Data;
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace F2Play.DataAccess.Repository
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {
@@ -24,18 +25,18 @@ namespace BulkyBook.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Title = obj.Title;
-                
+
                 objFromDb.Price = obj.Price;
-               
+
                 objFromDb.ListPrice = obj.ListPrice;
-              
+
                 objFromDb.Description = obj.Description;
                 objFromDb.CategoryId = obj.CategoryId;
                 objFromDb.Company = obj.Company;
-              
+
                 if (obj.ImageUrl != null)
                 {
-                    objFromDb.ImageUrl = obj.ImageUrl;  
+                    objFromDb.ImageUrl = obj.ImageUrl;
                 }
             }
         }

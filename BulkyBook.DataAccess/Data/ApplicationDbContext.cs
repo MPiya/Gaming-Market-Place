@@ -1,17 +1,16 @@
-﻿
-using BulkyBook.Models;
+﻿using F2Play.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyBook.DataAccess;
-public class ApplicationDbContext :IdentityDbContext
+namespace F2Play.DataAccess.Data;
+public class ApplicationDbContext : IdentityDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
 
-    public DbSet<Category> Categories {  get; set; }
-   
+    public DbSet<Category> Categories { get; set; }
+
     public DbSet<Product> Products { get; set; }
 
     public DbSet<ApplicationUser> ApplicationUsers { get; set; }

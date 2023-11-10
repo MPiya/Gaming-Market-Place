@@ -1,4 +1,4 @@
-namespace BulkyBook.Models
+namespace F2Play.Models
 {
     public class ErrorViewModel
     {

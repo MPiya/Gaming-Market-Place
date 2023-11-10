@@ -1,5 +1,5 @@
-﻿using BulkyBook.Models;
-using BulkyBook.Utility;
+﻿
+using F2Play.DataAccess.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.DbInitializer
+namespace F2Play.DataAccess.DbInitializer
 {
     public class DbInitializer : IDbInitializer
     {
@@ -68,7 +68,7 @@ namespace BulkyBook.DataAccess.DbInitializer
 
             //    _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
 
-            
+
             return;
         }
     }

@@ -1,7 +1,7 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
-using BulkyBook.Models.ViewModels;
-using BulkyBook.Utility;
+﻿using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
+using F2Play.Models.ViewModels;
+using F2Play.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
@@ -9,7 +9,7 @@ using Stripe.Checkout;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace BulkyBookWeb.Controllers
+namespace F2Play.WebApp.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
@@ -107,7 +107,7 @@ namespace BulkyBookWeb.Controllers
                 if (session.PaymentStatus.ToLower() == "paid")
                 {
                     _unitOfWork.OrderHeader.UpdateStripePaymentID(orderHeaderid, session.Id, session.PaymentIntentId);
-                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderid, orderHeader.OrderStatus , SD.PaymentStatusApproved);
+                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderid, orderHeader.OrderStatus, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
             }
@@ -161,7 +161,7 @@ namespace BulkyBookWeb.Controllers
             return RedirectToAction(nameof(Details), new { orderId = OrderVM.OrderHeader.Id });
         }
 
-           [HttpPost]
+        [HttpPost]
         [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         [ValidateAntiForgeryToken]
         public IActionResult ShipOrder()
@@ -224,7 +224,7 @@ namespace BulkyBookWeb.Controllers
         {
 
             IEnumerable<OrderHeader> orderHeaders;
-          
+
 
             if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
             {

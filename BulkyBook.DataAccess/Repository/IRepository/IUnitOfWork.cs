@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository.IRepository
+namespace F2Play.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork
     {
-        ICategoryRepository Category {  get; }
-      
+        ICategoryRepository Category { get; }
+
         IProductRepository Product { get; }
         ICompanyRepository Company { get; }
         //ICompanyRepository Company {  get; }

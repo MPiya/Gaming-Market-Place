@@ -1,12 +1,13 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
+﻿using F2Play.DataAccess.Data;
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace F2Play.DataAccess.Repository
 {
     public class ApplicationUserRepository : Repository<ApplicationUser>, IApplicationUserRepository
     {
@@ -15,7 +16,7 @@ namespace BulkyBook.DataAccess.Repository
         public ApplicationUserRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
-        }   
+        }
 
     }
 }

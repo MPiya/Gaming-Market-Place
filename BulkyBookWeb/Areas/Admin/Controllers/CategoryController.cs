@@ -1,11 +1,11 @@
 ﻿using BulkyBook.DataAccess;
-using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
-using BulkyBook.Utility;
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
+using F2Play.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyBookWeb.Controllers
+namespace F2Play.WebApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]
@@ -19,9 +19,10 @@ namespace BulkyBookWeb.Controllers
             _unitOfWork = db;
         }
         //Get
-    public IActionResult Create() { 
-        
-        return View();
+        public IActionResult Create()
+        {
+
+            return View();
         }
 
 
@@ -55,16 +56,16 @@ namespace BulkyBookWeb.Controllers
         public IActionResult Edit(int? id)
         {
 
-            if(id==null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-           
-  
-           // var categoryFromDb = _db.Categories.Find(id);
+
+
+            // var categoryFromDb = _db.Categories.Find(id);
             var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
-            if (categoryFromDbFirst ==null)
+            if (categoryFromDbFirst == null)
             {
                 return NotFound();
             }
@@ -79,7 +80,7 @@ namespace BulkyBookWeb.Controllers
         {
 
             // addring summary
-            if(obj.Name==obj.DisplayOrder.ToString())
+            if (obj.Name == obj.DisplayOrder.ToString())
             {
                 ModelState.AddModelError("CustomError", "The DisplayOrder cannot match tne name");
             }
@@ -87,9 +88,9 @@ namespace BulkyBookWeb.Controllers
             if (ModelState.IsValid)
             {
                 _unitOfWork.Category.Update(obj);
-                _unitOfWork.Save ();
+                _unitOfWork.Save();
                 TempData["success"] = "Category updated successfully";
-               
+
                 return RedirectToAction("Index");
             }
 
@@ -99,7 +100,7 @@ namespace BulkyBookWeb.Controllers
 
 
 
-    
+
 
         public IActionResult Delete(int? id)
         {
@@ -110,7 +111,7 @@ namespace BulkyBookWeb.Controllers
             }
 
 
-            var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u=>u.Id==id);
+            var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
 
             if (categoryFromDb == null)
             {
@@ -119,8 +120,8 @@ namespace BulkyBookWeb.Controllers
             return View(categoryFromDb);
         }
 
-        [HttpPost,ActionName("Delete")]
-            [ValidateAntiForgeryToken]
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
 
@@ -132,24 +133,24 @@ namespace BulkyBookWeb.Controllers
             }
 
 
-                _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Category.Remove(obj);
             _unitOfWork.Save();
             TempData["success"] = "Delete updated successfully";
             return RedirectToAction("Index");
-            
+
 
 
         }
         public IActionResult Index()
-        { 
+        {
 
-            
+
             IEnumerable<Category> objCategoryList = _unitOfWork.Category.GetAll();
             return View(objCategoryList);
         }
         public IActionResult Dada()
         {
-          
+
             return View();
         }
     }

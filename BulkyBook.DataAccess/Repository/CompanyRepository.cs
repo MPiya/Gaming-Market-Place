@@ -1,6 +1,6 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
-
-using BulkyBook.Models;
+﻿using F2Play.DataAccess.Data;
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +8,10 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace F2Play.DataAccess.Repository
 {
-    public class CompanyRepository : Repository<Company>, ICompanyRepository 
-        {
+    public class CompanyRepository : Repository<Company>, ICompanyRepository
+    {
         private ApplicationDbContext _db;
         public CompanyRepository(ApplicationDbContext db) : base(db)
         {

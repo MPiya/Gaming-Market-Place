@@ -1,25 +1,25 @@
 ﻿using BulkyBook.DataAccess;
-using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
-using BulkyBook.Models.ViewModels;
+
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Hosting;
 
-namespace BulkyBookWeb.Controllers
+namespace F2Play.WebApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CompanyController : Controller
     {
 
         private readonly IUnitOfWork _unitOfWork;
-     
+
 
         public CompanyController(IUnitOfWork db)
         {
             _unitOfWork = db;
 
-           
+
         }
 
 
@@ -37,17 +37,17 @@ namespace BulkyBookWeb.Controllers
         {
 
             Company company = new();
-           
+
 
             if (id == null || id == 0)
             {
-             
+
                 return View(company);
             }
             else
             {
                 company = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);
-      
+
 
                 return View(company);
             }
@@ -57,22 +57,22 @@ namespace BulkyBookWeb.Controllers
 
 
 
- 
-   
-  
 
 
-        
+
+
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Company obj)
         {
-           
-          
+
+
             if (ModelState.IsValid)
             {
 
-          
+
 
 
                 // when Id is 0 it means new product is added, if itsn ot then user want to upddate the product
@@ -88,8 +88,8 @@ namespace BulkyBookWeb.Controllers
                 }
 
                 _unitOfWork.Save();
-           
-               
+
+
                 return RedirectToAction("Index");
             }
 
@@ -99,9 +99,9 @@ namespace BulkyBookWeb.Controllers
 
 
 
-     
 
-     
+
+
 
 
         #region API CALLS

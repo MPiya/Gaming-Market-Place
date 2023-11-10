@@ -1,4 +1,5 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
+﻿using F2Play.DataAccess.Data;
+using F2Play.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace F2Play.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
@@ -16,22 +17,22 @@ namespace BulkyBook.DataAccess.Repository
 
         public Repository(ApplicationDbContext db)
         {
-            _db= db;
+            _db = db;
             //_db.ShoppingCarts.Include(u => u.Product).Include(u=>u.CoverType);
 
             // _  _db.Set(T) is a generic class use to access any repository since its generic r
-            this.dbSet= _db.Set<T>();
+            dbSet = _db.Set<T>();
         }
         public void Add(T entity)
         {
             dbSet.Add(entity);
         }
         //includeProp - "Category,CoverType"
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter=null, string? includeProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
 
-          
+
 
             if (filter != null)
             {
@@ -39,7 +40,7 @@ namespace BulkyBook.DataAccess.Repository
             }
             if (includeProperties != null)
             {
-                foreach(var includeProp in includeProperties.Split(new char[] { ','}, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp);
                 }
@@ -77,7 +78,7 @@ namespace BulkyBook.DataAccess.Repository
                 }
                 return query.FirstOrDefault();
             }
-            
+
         }
 
         public void Remove(T entity)

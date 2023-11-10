@@ -1,15 +1,15 @@
 ﻿
-using BulkyBook.DataAccess.Repository.IRepository;
-using BulkyBook.Models;
-using BulkyBook.Models.ViewModels;
-using BulkyBook.Utility;
+using F2Play.DataAccess.Repository.IRepository;
+using F2Play.Models;
+using F2Play.Models.ViewModels;
+using F2Play.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace BulkyBookWeb.Controllers
+namespace F2Play.WebApp.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

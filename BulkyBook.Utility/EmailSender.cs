@@ -9,11 +9,11 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.Utility
+namespace F2Play.Utility
 {
-   public  class EmailSender : IEmailSender
+    public class EmailSender : IEmailSender
     {
-         public Task SendEmailAsync(string email,string subject, string htmlMessage)
+        public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             //var emailToSend = new MimeMessage();
             //emailToSend.From.Add(MailboxAddress.Parse("hello@dotnetmastery.com"));
@@ -33,14 +33,14 @@ namespace BulkyBook.Utility
             //}
 
             var mail = "bonissocool@hotmail.com";
-                var pw = "Mpiyacs321";
+            var pw = "Mpiyacs321";
 
             var client = new System.Net.Mail.SmtpClient("smtp.office365.com", 587)
             {
 
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential(mail,pw)
+                Credentials = new NetworkCredential(mail, pw)
             };
 
             return client.SendMailAsync(
