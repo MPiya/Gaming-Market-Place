@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BulkyBook.DataAccess.Migrations
+namespace F2Play.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class addOrderDetailAndHeader : Migration

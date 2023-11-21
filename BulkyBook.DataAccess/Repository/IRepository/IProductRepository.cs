@@ -9,6 +9,7 @@ namespace F2Play.DataAccess.Repository.IRepository
 {
     public interface IProductRepository : IRepository<Product>
     {
-        void Update(Product obj);
+		
+		void Update(Product obj);
     }
 }

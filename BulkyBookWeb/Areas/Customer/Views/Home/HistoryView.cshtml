@@ -49,28 +49,28 @@ By retrieving the value of the "status" query parameter, you can use it to deter
         <div class="p-2">
 
             <ul class="list-group list-group-horizontal-sm">
-                <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="inprocess">
+                <a style="text-decoration:none;" asp-controller="Home"
+                   asp-action="HistoryView" asp-route-status="inprocess">
                 <li class="list-group-item @inprocess">In process</li>
                 </a>
 
-                <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="pending">
+                <a style="text-decoration:none;" asp-controller="Home"
+                   asp-action="HistoryView" asp-route-status="pending">
                 <li class="list-group-item @pending ">Pending</li>
                 </a>
 
-                <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="completed">
+                <a style="text-decoration:none;" asp-controller="Home"
+                   asp-action="HistoryView" asp-route-status="completed">
                 <li class="list-group-item @completed">Completed</li>
                 </a>
 
-                <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="approved">
+                <a style="text-decoration:none;" asp-controller="Home"
+                   asp-action="HistoryView" asp-route-status="approved">
                 <li class="list-group-item @approved">Approved</li>
                 </a>
 
-                <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="All">
+                <a style="text-decoration:none;" asp-controller="Home"
+                   asp-action="HistoryView" asp-route-status="All">
                 <li class="list-group-item @all">all</li>
                 </a>
             </ul>

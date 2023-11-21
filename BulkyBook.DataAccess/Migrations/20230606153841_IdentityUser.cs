@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BulkyBook.DataAccess.Migrations
+namespace F2Play.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class IdentityUser : Migration
