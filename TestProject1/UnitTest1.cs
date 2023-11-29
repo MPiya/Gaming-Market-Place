@@ -26,12 +26,13 @@ namespace YourTestProjectNamespace
 			{
 				new Product { Id = 1 },
 				new Product { Id = 2 }
-                // Add more dummy products as needed
+               
             };
 
 			// Mock the behavior of _unitOfWork.Product.GetAll
 			unitOfWorkMock.Setup(u => u.Product.GetAll(It.IsAny<Expression<Func<Product, bool>>>(), It.IsAny<string>()))
 				.Returns(dummyProducts);
+
 			// Act
 			var result = controller.GetAll() as JsonResult;
 			

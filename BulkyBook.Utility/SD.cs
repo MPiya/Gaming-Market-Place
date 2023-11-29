@@ -1,6 +1,6 @@
 ﻿namespace F2Play.Utility
 {
-    public static class SD
+    public static class SD //static Data
     {
         public const string Role_User_Indi = "Individual";
         public const string Role_User_Comp = "Company";
