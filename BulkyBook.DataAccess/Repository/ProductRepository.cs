@@ -1,6 +1,7 @@
 ﻿using F2Play.DataAccess.Data;
 using F2Play.DataAccess.Repository.IRepository;
 using F2Play.Models;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,12 @@ namespace F2Play.DataAccess.Repository
     {
         private ApplicationDbContext _db;
 
-        public ProductRepository(ApplicationDbContext db) : base(db)
+        private readonly ILogger _logger;
+        public ProductRepository
+(ApplicationDbContext db, ILogger logger) : base(db, logger)
         {
             _db = db;
+            _logger = logger;
         }
 
 

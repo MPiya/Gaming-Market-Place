@@ -1,6 +1,7 @@
 ﻿using F2Play.DataAccess.Data;
 using F2Play.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,13 @@ namespace F2Play.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
+        private readonly ILogger _logger;
 
-        public Repository(ApplicationDbContext db)
+        public Repository(ApplicationDbContext db, ILogger logger)
         {
             _db = db;
+            _logger = logger;
+
             //_db.ShoppingCarts.Include(u => u.Product).Include(u=>u.CoverType);
 
             // _  _db.Set(T) is a generic class use to access any repository since its generic r
@@ -25,27 +29,45 @@ namespace F2Play.DataAccess.Repository
         }
         public void Add(T entity)
         {
-            dbSet.Add(entity);
+            try
+            {
+                dbSet.Add(entity);
+                _logger.Information("Added entity of type {EntityType}", typeof(T).Name);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error adding entity of type {EntityType}", typeof(T).Name);
+                throw;
+            }
         }
         //includeProp - "Category,CoverType"
         public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
-            IQueryable<T> query = dbSet;
-
-
-
-            if (filter != null)
+            try
             {
-                query = query.Where(filter);
-            }
-            if (includeProperties != null)
-            {
-                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                IQueryable<T> query = dbSet;
+
+                if (filter != null)
                 {
-                    query = query.Include(includeProp);
+                    query = query.Where(filter);
                 }
+                if (includeProperties != null)
+                {
+                    foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        query = query.Include(includeProp);
+                    }
+                }
+
+                _logger.Information("Retrieved entities of type {EntityType}", typeof(T).Name);
+
+                return query.ToList();
             }
-            return query.ToList();
+            catch (Exception ex)
+            {
+                _logger.Error(ex, "Error getting entities of type {EntityType}", typeof(T).Name);
+                throw;
+            }
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = true)

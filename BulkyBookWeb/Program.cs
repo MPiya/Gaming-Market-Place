@@ -7,8 +7,23 @@ using F2Play.DataAccess.DbInitializer;
 using F2Play.DataAccess.Repository;
 using F2Play.DataAccess.Data;
 using F2Play.Utility;
+using Serilog.Formatting.Compact;
+using Serilog;
+using Infrastructure.LogConfiguration;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//loogging
+var loggerConfiguration = new LoggerConfiguration()
+//usingCustom Method
+.ConfigureLogging();
+// Read settings from appsettings.json
+var logSettings = builder.Configuration.GetSection("Logging");
+loggerConfiguration.WriteTo.File(new CompactJsonFormatter(), logSettings["LogPath"], rollingInterval: RollingInterval.Day);
+Log.Logger = loggerConfiguration.CreateLogger();
+builder.Host.UseSerilog();
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -28,11 +43,17 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
+
 builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
+builder.Services.AddSingleton<Serilog.ILogger>(Log.Logger);
+
+
+
 
 //This override Path default from Indentity
 builder.Services.ConfigureApplicationCookie(options => {
@@ -40,6 +61,8 @@ builder.Services.ConfigureApplicationCookie(options => {
     options.LogoutPath = $"/Identity/Account/Logout";
     options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
 });
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,7 @@
 ﻿
 using F2Play.DataAccess.Data;
 using F2Play.DataAccess.Repository.IRepository;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace F2Play.DataAccess.Repository
     public class UnitOfWork : IUnitOfWork
     {
         private ApplicationDbContext _db;
+        private ILogger _logger;
+
         public ICategoryRepository Category { get; private set; }
 
         public IProductRepository Product { get; private set; }
@@ -26,17 +29,20 @@ namespace F2Play.DataAccess.Repository
         public IOrderDetailRepository OrderDetail { get; private set; }
 
 
-        public UnitOfWork(ApplicationDbContext db)
+        public UnitOfWork(ApplicationDbContext db, ILogger logger)
         {
-            _db = db;
-            Category = new CategoryRepository(_db);
 
-            Product = new ProductRepository(_db);
-            Company = new CompanyRepository(_db);
-            ApplicationUser = new ApplicationUserRepository(_db);
-            ShoppingCart = new ShoppingCartRepository(_db);
-            OrderHeader = new OrderHeaderRepository(_db);
-            OrderDetail = new OrderDetailRepository(_db);
+            _db = db;
+            _logger = logger;
+
+
+            Category = new CategoryRepository(_db, _logger);
+            Product = new ProductRepository(_db, _logger);
+            Company = new CompanyRepository(_db, _logger);
+            ApplicationUser = new ApplicationUserRepository(_db, _logger);
+            ShoppingCart = new ShoppingCartRepository(_db, _logger);
+            OrderHeader = new OrderHeaderRepository(_db, _logger);
+            OrderDetail = new OrderDetailRepository(_db, _logger);
         }
 
 
