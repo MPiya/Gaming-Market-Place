@@ -135,28 +135,52 @@ namespace F2Play.WebApp.Areas.Identity.Pages.Account
             if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
             {
                 //this will create async and wait for the result until execute next line
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
+                //_roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
+                //_roleManager.CreateAsync(new IdentityRole(SD.Role_Employee)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Indi)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Comp)).GetAwaiter().GetResult();
 
             }
 
+            List<string> defaultRoleNames = new List<string> { "Individual", "Company" };
+
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             Input = new InputModel()
-            {                         // linq to select name in db and assign value text and value to  SlectListItem
-                RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
-                {
-                    Text = i,
-                    Value = i
-                }),
+            {
+                // Filter roles to include only "Individual" and "Company"
+                RoleList = _roleManager.Roles
+        .Where(role => defaultRoleNames.Contains(role.Name))
+        .Select(role => new SelectListItem
+        {
+            Text = role.Name,
+            Value = role.Name,
+            
+        }),
                 CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()
                 }),
             };
+
+
+            // this is for register all roles
+            //Input = new InputModel()
+            //{                         // linq to select name in db and assign value text and value to  SelectListItem
+            //    RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
+            //    {
+            //        Text = i,
+            //        Value = i,
+            //         Selected = defaultRoleNames.Contains(i)
+            //    }),
+            //    CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem
+            //    {
+            //        Text = i.Name,
+            //        Value = i.Id.ToString()
+            //    }),
+            //};
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
