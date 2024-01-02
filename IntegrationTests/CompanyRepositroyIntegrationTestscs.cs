@@ -69,7 +69,7 @@ namespace F2Play.Tests
         [Fact]
         public void GetCompanyById_ReturnsCorrectCompany()
         {
-            var companyId = 6;
+            var companyId = 8;
             var company = _companyRepository.GetFirstOrDefault(c => c.Id == companyId);
             Assert.NotNull(company);
             Assert.Equal(companyId, company.Id);
@@ -98,7 +98,7 @@ namespace F2Play.Tests
         [Fact]
         public void UpdateCompany_UpdatesInDatabase()
         {
-            var companyIdToUpdate = 6;
+            var companyIdToUpdate = 8;
             var companyToUpdate = _companyRepository.GetFirstOrDefault(c => c.Id == companyIdToUpdate);
             companyToUpdate.Name = "UpdatedCompanyName";
             _companyRepository.Update(companyToUpdate);
@@ -112,7 +112,7 @@ namespace F2Play.Tests
         [Fact]
         public void RemoveCompany_RemovesFromDatabase()
         {
-            var companyIdToRemove = 6;
+            var companyIdToRemove = 7;
             var companyToRemove = _companyRepository.GetFirstOrDefault(c => c.Id == companyIdToRemove);
             _companyRepository.Remove(companyToRemove);
             _db.SaveChanges();

@@ -110,6 +110,8 @@ namespace F2Play.Tests
            
         }
 
+    
+
         [Fact]
         public void UpdateOrderDetail_UpdatesInDatabase()
         {
@@ -117,10 +119,6 @@ namespace F2Play.Tests
             var orderDetailIdToUpdate = 38;
             var orderDetailToUpdate = _orderDetailRepository.GetAll(od => od.Id == orderDetailIdToUpdate).FirstOrDefault();
 
-
-            // Check if orderDetailToUpdate is not null before updating
-            if (orderDetailToUpdate != null)
-            {
                 orderDetailToUpdate.Count = 10; // Modify a property
                 _orderDetailRepository.Update(orderDetailToUpdate);
                 _db.SaveChanges();
@@ -128,23 +126,8 @@ namespace F2Play.Tests
                 var updatedOrderDetail = _orderDetailRepository.GetFirstOrDefault(od => od.Id == orderDetailIdToUpdate);
                 Assert.NotNull(updatedOrderDetail);
                 Assert.Equal(10, updatedOrderDetail.Count);
-            }
-            else
-            {
-                // Log or handle the case where orderDetailToUpdate is null
-                Assert.True(false, "orderDetailToUpdate is null");
-            }
-            // Unhappy Case
-            if (orderDetailToUpdate == null)
-            {
-                Assert.Throws<DbUpdateException>(() =>
-                {
-                    // Attempt to update a non-existent OrderDetail
-                    var nonExistentOrderDetail = new OrderDetail { Id = 999, Count = 5 };
-                    _orderDetailRepository.Update(nonExistentOrderDetail);
-                    _db.SaveChanges();
-                });
-            }
+            
+          
         }
 
 
