@@ -31,7 +31,6 @@ C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTe
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -186,3 +185,17 @@ C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTe
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\obj\Debug\net7.0\IntegrationTests.genruntimeconfig.cache
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\obj\Debug\net7.0\ref\IntegrationTests.dll
 C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\appsettings.json
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Enrichers.Environment.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Bon\Downloads\CMS-.Net-by-Piya-main\CMS-.Net-by-Piya-main\IntegrationTests\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll

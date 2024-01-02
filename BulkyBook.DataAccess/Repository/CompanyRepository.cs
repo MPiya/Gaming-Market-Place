@@ -29,6 +29,7 @@ namespace F2Play.DataAccess.Repository
         public void Update(Company obj)
         {
             _db.Companies.Update(obj);
+
         }
     }
 }

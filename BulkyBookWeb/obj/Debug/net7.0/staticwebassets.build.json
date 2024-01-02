@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J4WHYSytJIHCoE6iOhwW7+WEUYHZs61f0rd7tmK6+r4=",
+  "Hash": "t8JK9MF5t/C0KGAt3Xx8L8cp+iZXk+Wl1Gk6TtW8xXQ=",
   "Source": "F2Play.WebApp",
   "BasePath": "_content/F2Play.WebApp",
   "Mode": "Default",
@@ -1409,6 +1409,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\a86748c5-53eb-4562-8758-2763549554f7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\b2570d82-b0d5-4f80-a177-c481134ca9e6.jpg",
+      "SourceId": "F2Play.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/F2Play.WebApp",
+      "RelativePath": "images/products/b2570d82-b0d5-4f80-a177-c481134ca9e6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b2570d82-b0d5-4f80-a177-c481134ca9e6.jpg"
     },
     {
       "Identity": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\bcbb5da8-a0bf-4f1e-b4f3-50a7af17a2c6.PNG",

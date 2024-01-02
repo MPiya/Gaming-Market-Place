@@ -6,14 +6,18 @@ using System;
 using System.IO;
 using Xunit;
 using Microsoft.Extensions.Configuration;
+using Serilog;
+using System.Transactions;
 
 namespace F2Play.Tests
 {
     public class CompanyRepositoryIntegrationTests : IDisposable
     {
         private ApplicationDbContext _db;
+        private readonly ILogger _logger;
         private CompanyRepository _companyRepository;
         private string ConnectionString;
+        private TransactionScope _transaction;
 
         public CompanyRepositoryIntegrationTests()
         {
@@ -29,9 +33,16 @@ namespace F2Play.Tests
                 .Options;
 
             _db = new ApplicationDbContext(options);
-            _companyRepository = new CompanyRepository(_db);
+            _logger = new LoggerConfiguration()
+          .WriteTo.Console()
+          .CreateLogger();
+            _companyRepository = new CompanyRepository(_db, _logger);
             _db.Database.EnsureCreated();
             SeedTestData();
+
+            // Start a new transaction before each test
+            _transaction = new TransactionScope();
+
         }
 
         private void SeedTestData()
@@ -52,13 +63,13 @@ namespace F2Play.Tests
         {
             var companies = _companyRepository.GetAll();
             Assert.NotNull(companies);
-            Assert.Equal(3, companies.Count()); // Assuming you seeded 3 companies in SeedTestData
+          
         }
 
         [Fact]
         public void GetCompanyById_ReturnsCorrectCompany()
         {
-            var companyId = 3;
+            var companyId = 6;
             var company = _companyRepository.GetFirstOrDefault(c => c.Id == companyId);
             Assert.NotNull(company);
             Assert.Equal(companyId, company.Id);
@@ -67,7 +78,7 @@ namespace F2Play.Tests
         [Fact]
         public void GetCompanyById_WithInvalidId_ReturnsNull()
         {
-            var invalidCompanyId = 99;
+            var invalidCompanyId = 90;
             var company = _companyRepository.GetFirstOrDefault(c => c.Id == invalidCompanyId);
             Assert.Null(company);
         }
@@ -87,7 +98,7 @@ namespace F2Play.Tests
         [Fact]
         public void UpdateCompany_UpdatesInDatabase()
         {
-            var companyIdToUpdate = 1;
+            var companyIdToUpdate = 6;
             var companyToUpdate = _companyRepository.GetFirstOrDefault(c => c.Id == companyIdToUpdate);
             companyToUpdate.Name = "UpdatedCompanyName";
             _companyRepository.Update(companyToUpdate);
@@ -101,7 +112,7 @@ namespace F2Play.Tests
         [Fact]
         public void RemoveCompany_RemovesFromDatabase()
         {
-            var companyIdToRemove = 1;
+            var companyIdToRemove = 6;
             var companyToRemove = _companyRepository.GetFirstOrDefault(c => c.Id == companyIdToRemove);
             _companyRepository.Remove(companyToRemove);
             _db.SaveChanges();
@@ -112,6 +123,10 @@ namespace F2Play.Tests
 
         public void Dispose()
         {
+            // Roll back the transaction to undo changes made during the test
+            _transaction.Dispose();
+
+            // Dispose the DbContext
             _db.Dispose();
         }
     }

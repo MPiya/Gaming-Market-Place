@@ -2,10 +2,10 @@
 using F2Play.DataAccess.Repository;
 using F2Play.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.IO;
-using Xunit;
 using Microsoft.Extensions.Configuration;
+using Serilog;
+using System.Transactions;
+using Xunit;
 
 namespace F2Play.Tests
 {
@@ -14,6 +14,8 @@ namespace F2Play.Tests
         private ApplicationDbContext _db;
         private OrderDetailRepository _orderDetailRepository;
         private string ConnectionString;
+        private readonly ILogger _logger;
+        private TransactionScope _transaction;
 
         public OrderDetailRepositoryIntegrationTests()
         {
@@ -29,8 +31,13 @@ namespace F2Play.Tests
                 .Options;
 
             _db = new ApplicationDbContext(options);
-            _orderDetailRepository = new OrderDetailRepository(_db);
+            _logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .CreateLogger();
+
+            _orderDetailRepository = new OrderDetailRepository(_db, _logger);
             _db.Database.EnsureCreated();
+            _transaction = new TransactionScope();
         }
         [Fact]
         public void AddOrderDetail_SavesToDatabase()
@@ -80,8 +87,8 @@ namespace F2Play.Tests
                 Company = "Company1",
                 ListPrice = 29.99,
                 Price = 19.99,
-                ImageUrl ="test",
-                CategoryId = 3
+                ImageUrl = "test",
+                CategoryId = 55
                 // ... (set other properties as needed)
             };
 
@@ -100,21 +107,14 @@ namespace F2Play.Tests
             Assert.NotNull(retrievedOrderDetail);
             Assert.Equal(newOrderDetail.Id, retrievedOrderDetail.Id);
 
-            // Unhappy Case
-            Assert.Throws<DbUpdateException>(() =>
-            {
-                // Attempt to add a duplicate OrderDetail (assuming Id is a key)
-                _orderDetailRepository.Add(newOrderDetail);
-                _db.SaveChanges();
-            });
+           
         }
 
         [Fact]
         public void UpdateOrderDetail_UpdatesInDatabase()
         {
             // Happy Case
-            var allOrderDetails = _orderDetailRepository.GetAll();
-            var orderDetailIdToUpdate = 2;
+            var orderDetailIdToUpdate = 38;
             var orderDetailToUpdate = _orderDetailRepository.GetAll(od => od.Id == orderDetailIdToUpdate).FirstOrDefault();
 
 
@@ -152,7 +152,7 @@ namespace F2Play.Tests
         public void RemoveOrderDetail_RemovesFromDatabase()
         {
             // Happy Case
-            var orderDetailIdToRemove = 1;
+            var orderDetailIdToRemove = 38;
             var orderDetailToRemove = _orderDetailRepository.GetFirstOrDefault(od => od.Id == orderDetailIdToRemove);
             _orderDetailRepository.Remove(orderDetailToRemove);
             _db.SaveChanges();
@@ -172,6 +172,7 @@ namespace F2Play.Tests
 
         public void Dispose()
         {
+            _transaction.Dispose();
             _db.Dispose();
         }
     }

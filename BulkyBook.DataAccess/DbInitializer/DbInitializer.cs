@@ -39,7 +39,7 @@ namespace F2Play.DataAccess.DbInitializer
             }
             catch (Exception ex)
             {
-
+               
             }
 
             ////create roles if they are not created

@@ -4,8 +4,10 @@ using F2Play.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.IO;
+using System.Transactions;  // Add this using statement
 using Xunit;
 using Microsoft.Extensions.Configuration;
+using Serilog;
 
 namespace F2Play.Tests
 {
@@ -14,6 +16,8 @@ namespace F2Play.Tests
         private ApplicationDbContext _db;
         private CategoryRepository _categoryRepository;
         private string ConnectionString;
+        private readonly ILogger _logger;
+        private TransactionScope _transaction;  // Add a TransactionScope field
 
         public CategoryRepositoryIntegrationTests()
         {
@@ -29,9 +33,15 @@ namespace F2Play.Tests
                 .Options;
 
             _db = new ApplicationDbContext(options);
-            _categoryRepository = new CategoryRepository(_db);
+            _logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .CreateLogger();
+            _categoryRepository = new CategoryRepository(_db, _logger);
             _db.Database.EnsureCreated();
             SeedTestData();
+
+            // Start a new transaction before each test
+            _transaction = new TransactionScope();
         }
 
         private void SeedTestData()
@@ -52,13 +62,12 @@ namespace F2Play.Tests
         {
             var categories = _categoryRepository.GetAll();
             Assert.NotNull(categories);
-          
         }
 
         [Fact]
         public void GetCategoryById_ReturnsCorrectCategory()
         {
-            var categoryId = 3;
+            var categoryId = 58;
             var category = _categoryRepository.GetFirstOrDefault(c => c.Id == categoryId);
             Assert.NotNull(category);
             Assert.Equal(categoryId, category.Id);
@@ -67,7 +76,7 @@ namespace F2Play.Tests
         [Fact]
         public void GetCategoryById_WithInvalidId_ReturnsNull()
         {
-            var invalidCategoryId = 99;
+            var invalidCategoryId = 999;
             var category = _categoryRepository.GetFirstOrDefault(c => c.Id == invalidCategoryId);
             Assert.Null(category);
         }
@@ -87,7 +96,7 @@ namespace F2Play.Tests
         [Fact]
         public void RemoveCategory_RemovesFromDatabase()
         {
-            var categoryIdToRemove = 1;
+            var categoryIdToRemove = 59;
             var categoryToRemove = _categoryRepository.GetFirstOrDefault(c => c.Id == categoryIdToRemove);
             _categoryRepository.Remove(categoryToRemove);
             _db.SaveChanges();
@@ -98,6 +107,10 @@ namespace F2Play.Tests
 
         public void Dispose()
         {
+            // Roll back the transaction to undo changes made during the test
+            _transaction.Dispose();
+
+            // Dispose the DbContext
             _db.Dispose();
         }
     }
