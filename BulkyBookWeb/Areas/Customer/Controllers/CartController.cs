@@ -3,6 +3,7 @@ using F2Play.Models;
 using F2Play.Models.ViewModels;
 using F2Play.Utility;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR.Protocol;
 using Stripe.Checkout;
@@ -18,12 +19,13 @@ namespace F2Play.WebApp.Areas.Customer.Controllers
     public class CartController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-
+        private readonly IEmailSender _emailSender;
         public ShoppingCartVM ShoppingCartVM { get; set; }
         public int OrderTotal { get; set; }
-        public CartController(IUnitOfWork unitOfWork)
+        public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender)
         {
             _unitOfWork = unitOfWork;
+            _emailSender = emailSender;
         }
         public IActionResult Index()
 
@@ -193,7 +195,9 @@ namespace F2Play.WebApp.Areas.Customer.Controllers
 
         public IActionResult OrderConfirmation(int id)
         {
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == id);
+
+            // Retrieve orderHeader and ApplicaitonUser because they got email property that the system need to send //
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == id,includeProperties:"ApplicationUser");
 
             // if its not PaymentStatusDelayed so it means its the normal user.
             if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
@@ -208,7 +212,8 @@ namespace F2Play.WebApp.Areas.Customer.Controllers
                     _unitOfWork.Save();
                 }
             }
-
+             // this is how the system got email from user.
+            _emailSender.SendEmailAsync(orderHeader.ApplicationUser.Email, "New order - F2P", "<p> New order is confirmed </p>");
 
 
             // remove shoppping cart after the order is placed.

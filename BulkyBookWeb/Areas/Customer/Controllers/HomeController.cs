@@ -31,7 +31,7 @@ namespace F2Play.WebApp.Areas.Customer.Controllers
             //IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
 
             IEnumerable<Product> productList = _unitOfWork.Product
-           .GetAll(filter: p => p.CategoryId == 3, includeProperties: "Category")
+           .GetAll(/*filter: p => p.CategoryId == 3, */ includeProperties: "Category")
            .ToList();
             return View(productList);
         }

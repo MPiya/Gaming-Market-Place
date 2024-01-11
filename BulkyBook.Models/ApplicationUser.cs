@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 
 namespace F2Play.Models
 {
+
+      //This class extends from IdentityUser so we got attributes like Email.
     public class ApplicationUser : IdentityUser
     {
         [Required]

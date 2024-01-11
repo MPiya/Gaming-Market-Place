@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
     },
     {
+      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\0109bf8f-c22f-49a7-8b23-f78283577ed6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0109bf8f-c22f-49a7-8b23-f78283577ed6.jpg"
+    },
+    {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\0ec34ab3-fe55-4198-ba45-58f22babbc6b.jpg",
       "PackagePath": "staticwebassets\\images\\products\\0ec34ab3-fe55-4198-ba45-58f22babbc6b.jpg"
     },
@@ -65,8 +69,8 @@
       "PackagePath": "staticwebassets\\images\\products\\67d21e9c-c2a0-40da-bcad-f23561a07b0e.png"
     },
     {
-      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\8a0076e2-9f1d-4d50-9242-c1dd13c03770.JPG",
-      "PackagePath": "staticwebassets\\images\\products\\8a0076e2-9f1d-4d50-9242-c1dd13c03770.JPG"
+      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\8757d7fc-b56c-4c08-b656-72a48b25a585.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\8757d7fc-b56c-4c08-b656-72a48b25a585.jpg"
     },
     {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\90a9ef40-6139-4bfe-822d-e0155d8931c5.webp",
@@ -83,10 +87,6 @@
     {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\a86748c5-53eb-4562-8758-2763549554f7.jpg",
       "PackagePath": "staticwebassets\\images\\products\\a86748c5-53eb-4562-8758-2763549554f7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\b2570d82-b0d5-4f80-a177-c481134ca9e6.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\b2570d82-b0d5-4f80-a177-c481134ca9e6.jpg"
     },
     {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\bcbb5da8-a0bf-4f1e-b4f3-50a7af17a2c6.PNG",
@@ -113,12 +113,20 @@
       "PackagePath": "staticwebassets\\images\\products\\cc8c45a5-1cd9-43c0-9f23-7ea1264218f4.jpg"
     },
     {
+      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\d50a555b-eba1-4765-9ac9-b6a2e5110c7b.webp",
+      "PackagePath": "staticwebassets\\images\\products\\d50a555b-eba1-4765-9ac9-b6a2e5110c7b.webp"
+    },
+    {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\db0ddeb6-69b0-4402-b94c-ea749e3fd0e8.webp",
       "PackagePath": "staticwebassets\\images\\products\\db0ddeb6-69b0-4402-b94c-ea749e3fd0e8.webp"
     },
     {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\e70aec7a-8868-4af9-846a-807477b112cf.png",
       "PackagePath": "staticwebassets\\images\\products\\e70aec7a-8868-4af9-846a-807477b112cf.png"
+    },
+    {
+      "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\images\\products\\ec00c3f2-e66a-4a33-983a-fe847f7835de.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ec00c3f2-e66a-4a33-983a-fe847f7835de.jpg"
     },
     {
       "Id": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\wwwroot\\js\\company.js",
