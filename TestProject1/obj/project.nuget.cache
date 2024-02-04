@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hOwMbEzsqoJ9ilGBFaWHwtX2Bpiw7kwF2gWUaa01tyeh9MdhXhAEMKcLawkmnJ9ckzwppM7a1F/9GnyL+7CZGQ==",
+  "dgSpecHash": "qyxL0l+AcKdkPW+rlp6gWcpkaor7r6pPbXNbwNBghxKMqOH/xT3BJlk+0gffjt7YfjvcrCYeHkgLf1klL0kAhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

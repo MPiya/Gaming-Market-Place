@@ -8151,11 +8151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
       "projectName": "F2Play.Models",
-      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj",
+      "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\obj\\",
+      "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

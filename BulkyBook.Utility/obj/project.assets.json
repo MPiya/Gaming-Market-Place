@@ -2322,11 +2322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj",
       "projectName": "F2Play.Utility",
-      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
+      "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\obj\\",
+      "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

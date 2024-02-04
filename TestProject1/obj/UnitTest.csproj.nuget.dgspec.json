@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj": {}
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
         "projectName": "F2Play.DataAccess",
-        "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj"
               },
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj"
               }
             }
           }
@@ -123,14 +123,14 @@
         }
       }
     },
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj": {
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
         "projectName": "F2Play.Models",
-        "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj",
+        "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
         "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\obj\\",
+        "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj": {
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj",
         "projectName": "F2Play.Utility",
-        "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj",
+        "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj",
         "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\obj\\",
+        "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -331,14 +331,14 @@
         }
       }
     },
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj": {
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj",
         "projectName": "F2Play.WebApp",
-        "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj",
+        "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj",
         "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\obj\\",
+        "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -360,14 +360,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
               },
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj"
               },
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Utility\\F2Play.Utility.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Utility\\F2Play.Utility.csproj"
               }
             }
           }
@@ -472,14 +472,14 @@
         }
       }
     },
-    "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj": {
+    "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -501,11 +501,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
               },
-              "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj": {
-                "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj"
+              "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj": {
+                "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj"
               }
             }
           }

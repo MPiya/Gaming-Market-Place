@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bS605nuH0UOVXkDaizK+OenH9Og6klCeaXO6F1i0H6N3G/DmzOYuABgSQppz0NAfVyE3grr6SCzbE0LHaboOLQ==",
+  "dgSpecHash": "4w4MAbsg+TP9AeyFhE49NLnkqrS3PZ1K3ynYygkiz0LDm4C7bCGn1N1DU6PwAbqFzL+QyaYnAlLWKxE4+93vOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.Models\\F2Play.Models.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\mailkit\\4.1.0\\mailkit.4.1.0.nupkg.sha512",

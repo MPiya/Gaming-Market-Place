@@ -15228,11 +15228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\UnitTest.csproj",
+      "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -15254,11 +15254,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
+            "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
             },
-            "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj": {
-              "projectPath": "C:\\Users\\Bon\\Downloads\\CMS-.Net-by-Piya-main\\CMS-.Net-by-Piya-main\\BulkyBookWeb\\F2Play.WebApp.csproj"
+            "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj": {
+              "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj"
             }
           }
         }

@@ -15,8 +15,8 @@ namespace F2Play.Utility
     public class EmailSender : IEmailSender
     {
 
-        private string emailSender = "bonissocoolandhandsome@hotmail.com";
-        private string password = "dreammode321";
+        private string emailSender = "USE UR EMAIL";
+        private string password = "USE UR PASS";
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
 
