@@ -8151,11 +8151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
-      "projectName": "F2Play.Models",
-      "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\F2Play.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.Models\\GMP.Models.csproj",
+      "projectName": "GMP.Models",
+      "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.Models\\GMP.Models.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.Models\\obj\\",
+      "outputPath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

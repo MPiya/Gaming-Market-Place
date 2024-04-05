@@ -3851,12 +3851,12 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "F2Play.DataAccess/1.0.0": {
+      "GMP.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "F2Play.Models": "1.0.0",
-          "F2Play.Utility": "1.0.0",
+          "GMP.Models": "1.0.0",
+          "GMP.Utility": "1.0.0",
           "MailKit": "4.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
@@ -3870,13 +3870,13 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/F2Play.DataAccess.dll": {}
+          "bin/placeholder/GMP.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/F2Play.DataAccess.dll": {}
+          "bin/placeholder/GMP.DataAccess.dll": {}
         }
       },
-      "F2Play.Models/1.0.0": {
+      "GMP.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3893,13 +3893,13 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/F2Play.Models.dll": {}
+          "bin/placeholder/GMP.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/F2Play.Models.dll": {}
+          "bin/placeholder/GMP.Models.dll": {}
         }
       },
-      "F2Play.Utility/1.0.0": {
+      "GMP.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3915,10 +3915,10 @@
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/F2Play.Utility.dll": {}
+          "bin/placeholder/GMP.Utility.dll": {}
         },
         "runtime": {
-          "bin/placeholder/F2Play.Utility.dll": {}
+          "bin/placeholder/GMP.Utility.dll": {}
         }
       }
     }
@@ -11164,25 +11164,25 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "F2Play.DataAccess/1.0.0": {
+    "GMP.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.DataAccess/F2Play.DataAccess.csproj",
-      "msbuildProject": "../BulkyBook.DataAccess/F2Play.DataAccess.csproj"
+      "path": "../GMP.DataAccess/GMP.DataAccess.csproj",
+      "msbuildProject": "../GMP.DataAccess/GMP.DataAccess.csproj"
     },
-    "F2Play.Models/1.0.0": {
+    "GMP.Models/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.Models/F2Play.Models.csproj",
-      "msbuildProject": "../BulkyBook.Models/F2Play.Models.csproj"
+      "path": "../GMP.Models/GMP.Models.csproj",
+      "msbuildProject": "../GMP.Models/GMP.Models.csproj"
     },
-    "F2Play.Utility/1.0.0": {
+    "GMP.Utility/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.Utility/F2Play.Utility.csproj",
-      "msbuildProject": "../BulkyBook.Utility/F2Play.Utility.csproj"
+      "path": "../GMP.Utility/GMP.Utility.csproj",
+      "msbuildProject": "../GMP.Utility/GMP.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "F2Play.DataAccess >= 1.0.0",
+      "GMP.DataAccess >= 1.0.0",
       "Microsoft.Extensions.Configuration.UserSecrets >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
@@ -11201,11 +11201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\IntegrationTests\\IntegrationTests.csproj",
-      "projectName": "IntegrationTests",
-      "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
+      "projectName": "GMP.IntegrationTests",
+      "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11227,8 +11227,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj"
+            "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.DataAccess\\GMP.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.DataAccess\\GMP.DataAccess.csproj"
             }
           }
         }

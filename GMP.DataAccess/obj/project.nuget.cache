@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gjm+n4/aCRxtiRA1LAyU4IWNUpbpeUPnvaBuOG5dm3E9IhZ6F1HYp5uFy4sYVXpmPLEElJaTUnhlWvYEJQCyjQ==",
+  "dgSpecHash": "UfvvEQ4o6sPGJ08HiwDUuwt8OzXLW7oqB9tTaHNW+2XXVB6/q8FjDZcMSi1F+MztKgjoQOGGDE1Jx/9lu0GYCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBook.DataAccess\\F2Play.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.DataAccess\\GMP.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

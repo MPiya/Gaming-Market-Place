@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.0-preview.2.23153.2" />
+
+    <PackageReference Include="MimeKit" Version="4.1.0" />
+
+    <PackageReference Include="Serilog" Version="3.1.1" />
+
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0" />
+
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

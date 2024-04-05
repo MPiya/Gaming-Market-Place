@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wcEKsoSURZ8qIiqJjdM34ZFxA5gyIdlS11Cl7aTb4X9EGCOzZZpPKxVllI0IjYHtKiENGEJdl2QSFq6SV+f1VA==",
+  "dgSpecHash": "6e7V4f2P5wqZLOfP9SI8dkYMrBU/nHaLyG6xFXm7gTo+49LYEDfpP7UdnpVyZA3fmldB6ttio3dHB6nESXjcIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\CheckIfYouAreLucky\\F2Play\\BulkyBookWeb\\F2Play.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\GMP.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
