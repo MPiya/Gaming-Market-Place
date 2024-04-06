@@ -9,19 +9,26 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using SmtpClient = MailKit.Net.Smtp.SmtpClient;
+using Microsoft.Extensions.Configuration;
 
 namespace F2Play.Utility
 {
     public class EmailSender : IEmailSender
     {
 
-        private string emailSender = "bonissocool@hotmail.com";
-        private string password = "Mpiyacs321";
+        private readonly string _emailSender;
+        private readonly string _password;
+
+        public EmailSender(IConfiguration configuration)
+        {
+            _emailSender = configuration["EmailSender:Email"];
+            _password = configuration["EmailSender:Password"];
+        }
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
 
             var emailToSend = new MimeMessage();
-            emailToSend.From.Add(MailboxAddress.Parse(emailSender));
+            emailToSend.From.Add(MailboxAddress.Parse(_emailSender));
             emailToSend.To.Add(MailboxAddress.Parse(email));
             emailToSend.Subject = subject;
             emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
@@ -34,7 +41,7 @@ namespace F2Play.Utility
                
 
                 emailClient.Connect("smtp-mail.outlook.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-                emailClient.Authenticate(emailSender, password);
+                emailClient.Authenticate(_emailSender, _password);
                 emailClient.Send(emailToSend);
                 emailClient.Disconnect(true);
 
