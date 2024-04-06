@@ -3,7 +3,7 @@
 
 # Features
 
-1. **Efficient Product and Order Organization:** Seamlessly organize your products and orders for enhanced efficiency in managing your business operations.
+1. **Efficient Product and Order Organization:**  organize your products and orders for enhanced efficiency in managing your business operations.
 
 2. **Intuitive User Interface:** Enjoy a user-friendly interface designed to simplify navigation and streamline your workflow, ensuring a hassle-free experience for users at every level of expertise.
 
