@@ -1,6 +1,0 @@
-# Ignore user secrets files within GMP.Utility directory
-GMP.Utility/**/UserSecrets/
-GMP.Utility/**/UserSecrets/**/*
-
-# Exclude specific files
-!/GMP.Utility/GMP.Utility.csproj

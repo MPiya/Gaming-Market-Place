@@ -3906,6 +3906,7 @@
           "MailKit": "4.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.AspNetCore.Identity.UI": "7.0.5",
+          "Microsoft.Extensions.Configuration.UserSecrets": "6.0.1",
           "MimeKit": "4.1.0",
           "SendGrid": "9.28.1",
           "Serilog": "3.1.1",
