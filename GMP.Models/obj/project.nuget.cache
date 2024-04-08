@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AXtLhUAkasz3TIatxjS/LfnMKV/FXP04YHfY2RqYJ9swWJfsU9t42JGI8SatfRzCAHX4PXKCuog2kMEBE1BsQ==",
+  "dgSpecHash": "TJ2t6BCHUIHNzJjwuR5woQRnhrTVT4JltJ1lS9XP6Rsgl7pOf0fJz+ESqQbPufMQCgeWlemyo2YeUj/rjmA4Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.Models\\GMP.Models.csproj",
+  "projectFilePath": "C:\\Coding Github\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\mailkit\\4.1.0\\mailkit.4.1.0.nupkg.sha512",
@@ -161,7 +161,10 @@
     "C:\\Users\\Bon\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Bon\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
   ],
   "logs": [
     {

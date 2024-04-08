@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GMP.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c15166f1dc8c8c1178d7a1b88d1f4506c98a22f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GMP.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GMP.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

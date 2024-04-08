@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pc3u07X2OoEPYgwYVEsjZCtcuirDPqaP+nA0n01ByC+O3aNl21m43IHlDKgUDnCn6GybH63YDzkghOc5LoKhag==",
+  "dgSpecHash": "5aBUcAm9J12ASRpnpaPdS9WurJXSAVI/yCKb1xXaxHIp1z8ZieLVq88o63Rd10Vuqy04MM7URNaCT8B3q9rpdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.DataAccess\\GMP.DataAccess.csproj",
+  "projectFilePath": "C:\\Coding Github\\Gaming-Market-Place\\GMP.DataAccess\\GMP.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -201,7 +201,10 @@
     "C:\\Users\\Bon\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Bon\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
   ],
   "logs": [
     {
