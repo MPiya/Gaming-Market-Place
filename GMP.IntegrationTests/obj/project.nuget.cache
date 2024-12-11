@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PwVpCOJxCoVes9S5rKFMs10whWHs+OliPt2PDVOJUXBAMZGmWaqbP497OD4PIySHDgoBGkDLJRxoSDSU1aYOkQ==",
+  "dgSpecHash": "RNT8n0dHdlSxwa5wYQl2G5uisng0ovmsDiE46OArJ5kFLEsl9SJqqHaYT0smMleTJ5k3hTE+9uKP6G/uvt9Xvg==",
   "success": true,
-  "projectFilePath": "C:\\Coding Github\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -211,10 +211,7 @@
     "C:\\Users\\Bon\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+    "C:\\Users\\Bon\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": [
     {

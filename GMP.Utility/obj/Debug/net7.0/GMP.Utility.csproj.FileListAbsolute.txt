@@ -22,3 +22,16 @@ C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.Utility\obj\Debug\net7.0\GMP.
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.Utility\obj\Debug\net7.0\refint\GMP.Utility.dll
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.Utility\obj\Debug\net7.0\GMP.Utility.pdb
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.Utility\obj\Debug\net7.0\ref\GMP.Utility.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\bin\Debug\net7.0\GMP.Utility.deps.json
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\bin\Debug\net7.0\GMP.Utility.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\bin\Debug\net7.0\GMP.Utility.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.csproj.AssemblyReference.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.AssemblyInfoInputs.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.AssemblyInfo.cs
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.sourcelink.json
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\refint\GMP.Utility.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\GMP.Utility.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.Utility\obj\Debug\net7.0\ref\GMP.Utility.dll

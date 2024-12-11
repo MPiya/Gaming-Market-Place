@@ -1,291 +1,291 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GMP.WebApp.bundle.scp.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GMP.WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\GMP.WebApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\css\\bootsWatchTheme.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\css\\bootsWatchTheme.css",
       "PackagePath": "staticwebassets\\css\\bootsWatchTheme.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\book.png",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\book.png",
       "PackagePath": "staticwebassets\\images\\book.png"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\lawn_leaf.jpg",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\lawn_leaf.jpg",
       "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\products\\0109bf8f-c22f-49a7-8b23-f78283577ed6.jpg",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\products\\0109bf8f-c22f-49a7-8b23-f78283577ed6.jpg",
       "PackagePath": "staticwebassets\\images\\products\\0109bf8f-c22f-49a7-8b23-f78283577ed6.jpg"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\products\\22ab3986-cb40-4355-a37a-43bb2f83e53a.jpg",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\products\\22ab3986-cb40-4355-a37a-43bb2f83e53a.jpg",
       "PackagePath": "staticwebassets\\images\\products\\22ab3986-cb40-4355-a37a-43bb2f83e53a.jpg"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\products\\3f8f5613-6cdc-45b1-b875-6bae922ac37c.jpg",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\products\\3f8f5613-6cdc-45b1-b875-6bae922ac37c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\3f8f5613-6cdc-45b1-b875-6bae922ac37c.jpg"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\products\\8757d7fc-b56c-4c08-b656-72a48b25a585.jpg",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\products\\8757d7fc-b56c-4c08-b656-72a48b25a585.jpg",
       "PackagePath": "staticwebassets\\images\\products\\8757d7fc-b56c-4c08-b656-72a48b25a585.jpg"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\images\\products\\d50a555b-eba1-4765-9ac9-b6a2e5110c7b.webp",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\images\\products\\d50a555b-eba1-4765-9ac9-b6a2e5110c7b.webp",
       "PackagePath": "staticwebassets\\images\\products\\d50a555b-eba1-4765-9ac9-b6a2e5110c7b.webp"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\js\\company.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\js\\company.js",
       "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\js\\history.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\js\\history.js",
       "PackagePath": "staticwebassets\\js\\history.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\js\\orderde.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\js\\orderde.js",
       "PackagePath": "staticwebassets\\js\\orderde.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\js\\product.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming Market\\F2Play\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -36,3 +36,23 @@ C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.DataAccess\obj\Debug\net7.0\r
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.pdb
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.genruntimeconfig.cache
 C:\Users\Bon\source\repos\Gaming Market\F2Play\GMP.DataAccess\obj\Debug\net7.0\ref\GMP.DataAccess.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.DataAccess.deps.json
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.DataAccess.runtimeconfig.json
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.DataAccess.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.DataAccess.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.Models.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.Utility.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.Models.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\bin\Debug\net7.0\GMP.Utility.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.AssemblyInfo.cs
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.sourcelink.json
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.Data.9807AAFD.Up2Date
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\refint\GMP.DataAccess.dll
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.pdb
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\GMP.DataAccess.genruntimeconfig.cache
+C:\Users\Bon\source\repos\Gaming-Market-Place\GMP.DataAccess\obj\Debug\net7.0\ref\GMP.DataAccess.dll
