@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj": {}
+    "F:\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj": {
+    "F:\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj",
+        "projectUniqueName": "F:\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj",
         "projectName": "GMP.Models",
-        "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj",
-        "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.Models\\obj\\",
+        "projectPath": "F:\\repos\\Gaming-Market-Place\\GMP.Models\\GMP.Models.csproj",
+        "packagesPath": "C:\\Users\\BON\\.nuget\\packages\\",
+        "outputPath": "F:\\repos\\Gaming-Market-Place\\GMP.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "F:\\Program File\\Shared SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BON\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -111,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

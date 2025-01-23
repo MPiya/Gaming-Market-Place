@@ -11196,23 +11196,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BON\\.nuget\\packages\\": {},
+    "F:\\Program File\\Shared SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
+      "projectUniqueName": "F:\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
       "projectName": "GMP.IntegrationTests",
-      "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\Bon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\obj\\",
+      "projectPath": "F:\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\GMP.IntegrationTests.csproj",
+      "packagesPath": "C:\\Users\\BON\\.nuget\\packages\\",
+      "outputPath": "F:\\repos\\Gaming-Market-Place\\GMP.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "F:\\Program File\\Shared SDK\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BON\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11228,8 +11228,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.DataAccess\\GMP.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Bon\\source\\repos\\Gaming-Market-Place\\GMP.DataAccess\\GMP.DataAccess.csproj"
+            "F:\\repos\\Gaming-Market-Place\\GMP.DataAccess\\GMP.DataAccess.csproj": {
+              "projectPath": "F:\\repos\\Gaming-Market-Place\\GMP.DataAccess\\GMP.DataAccess.csproj"
             }
           }
         }
@@ -11243,7 +11243,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -11306,7 +11307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

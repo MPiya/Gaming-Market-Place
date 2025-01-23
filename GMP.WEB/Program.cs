@@ -23,8 +23,6 @@ loggerConfiguration.WriteTo.File(new CompactJsonFormatter(), logSettings["LogPat
 Log.Logger = loggerConfiguration.CreateLogger();
 builder.Host.UseSerilog();
 
-
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -36,22 +34,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 //builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer
 //(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
 // Accesss to configure
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
-
 builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddSingleton<Serilog.ILogger>(Log.Logger);
-
-
-
 
 //This override Path default from Indentity
 builder.Services.ConfigureApplicationCookie(options => {

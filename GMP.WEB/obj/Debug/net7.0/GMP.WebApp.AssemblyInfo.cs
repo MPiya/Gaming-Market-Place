@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GMP.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62dc3384a1a96cc6a634d318404d784fb009ce28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e011b4d1ce16f4705ec4c5393bdffe2493a1cf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GMP.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GMP.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
